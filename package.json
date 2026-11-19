@@ -1,0 +1,23 @@
+{
+  "name": "foodbridge",
+  "version": "1.0.0",
+  "description": "FoodBridge – Smart Food Waste to Donation System",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "food-waste",
+    "food-donation",
+    "smart-matching",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "FoodBridge Team",
+  "license": "MIT"
+}
